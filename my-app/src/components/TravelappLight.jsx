@@ -88,7 +88,7 @@ export default function TravelAppLight() {
           <div
             className="absolute inset-0 bg-cover bg-center z-0"
             style={{
-              backgroundImage: "url('/api/placeholder/600/400')",
+              backgroundImage: "url('../src/assets/homeimaage.png')",
               backgroundPosition: "center",
             }}
           ></div>

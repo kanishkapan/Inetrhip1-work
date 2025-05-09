@@ -14,7 +14,7 @@ export default function AccommodationCardsLight() {
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
           <div className="relative">
             <img 
-              src="/api/placeholder/400/200" 
+              src="../src/assets/image.png" 
               alt="Shinagawa Prince Hotel" 
               className="w-full h-32 object-cover"
             />
@@ -49,7 +49,7 @@ export default function AccommodationCardsLight() {
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
           <div className="relative">
             <img 
-              src="/api/placeholder/400/200" 
+              src="../src/assets/accom2.png" 
               alt="Mercure Tokyo Hotel" 
               className="w-full h-32 object-cover"
             />

@@ -13,7 +13,7 @@ export default function AccommodationCards() {
         <div className="bg-gray-900 rounded-xl overflow-hidden">
           <div className="relative">
             <img 
-              src="/api/placeholder/400/200" 
+              src="../src/assets/image.png" 
               alt="Shinagawa Prince Hotel" 
               className="w-full h-32 object-cover"
             />
@@ -48,7 +48,7 @@ export default function AccommodationCards() {
         <div className="bg-gray-900 rounded-xl overflow-hidden">
           <div className="relative">
             <img 
-              src="/api/placeholder/400/200" 
+              src="../src/assets/accom2.png" 
               alt="Mercure Tokyo Hotel" 
               className="w-full h-32 object-cover"
             />
