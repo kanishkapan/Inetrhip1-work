@@ -6,21 +6,21 @@ const tours = [
     time: '8:15 am Morning',
     duration: '3 hours',
     pickup: 'From Hotel',
-    image: '/images/sensoji.jpg',
+    image: '../src/assets/plans1.png',
   },
   {
     title: 'Tokyo Sky Tree',
     time: '1:00 pm Afternoon',
     duration: '3 hours',
     pickup: 'From Nakamise Street',
-    image: '/images/skytree.jpg',
+    image: '../src/assets/plans2.png',
   },
   {
     title: 'Kimono Wearing',
     time: 'Anytime before 8:00pm',
     duration: '1-2 hours',
     pickup: 'From Hotel',
-    image: '/images/kimono.jpg',
+    image: '../src/assets/plans3.png',
   },
 ];
 

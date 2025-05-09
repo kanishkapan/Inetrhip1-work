@@ -101,34 +101,35 @@ export default function TravelApp2() {
       </div>
       
       {/* Accommodation Cards */}
-      <div className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 px-6 py-2 flex justify-between items-center z-50">
-      {/* Home - Active */}
-      <div className="flex flex-col items-center text-blue-600">
-        <div className="bg-blue-100 p-2 rounded-full">
-          <Home size={20} strokeWidth={2} />
-        </div>
-      </div>
-
-      {/* Search */}
-      <div className="flex flex-col items-center text-gray-500">
-        <Search size={20} strokeWidth={2} />
-      </div>
-
-      {/* Add */}
-      <div className="flex flex-col items-center text-blue-600">
-        <Plus size={24} strokeWidth={2} />
-      </div>
-
-      {/* Favorites */}
-      <div className="flex flex-col items-center text-gray-500">
-        <Heart size={20} strokeWidth={2} />
-      </div>
-
-      {/* Profile */}
-      <div className="flex flex-col items-center text-gray-500">
-        <User size={20} strokeWidth={2} />
-      </div>
+      <div className="bottom-0 w-full bg-gray-900 border-t border-gray-700 px-6 py-3 flex justify-between items-center z-50 max-w-md mx-auto">
+  {/* Home - Active */}
+  <div className="flex flex-col items-center text-blue-400">
+    <div className="bg-blue-950 p-2 rounded-full">
+      <Home size={20} strokeWidth={2} />
     </div>
+  </div>
+
+  {/* Search */}
+  <div className="flex flex-col items-center text-gray-400">
+    <Search size={20} strokeWidth={2} />
+  </div>
+
+  {/* Add */}
+  <div className="flex flex-col items-center text-blue-400">
+    <Plus size={24} strokeWidth={2} />
+  </div>
+
+  {/* Favorites */}
+  <div className="flex flex-col items-center text-gray-400">
+    <Heart size={20} strokeWidth={2} />
+  </div>
+
+  {/* Profile */}
+  <div className="flex flex-col items-center text-gray-400">
+    <User size={20} strokeWidth={2} />
+  </div>
+</div>
+
     </div>
 
   );
