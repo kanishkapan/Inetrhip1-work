@@ -1,9 +1,5 @@
 import React from 'react'
-import TravelApp from './components/Travelapp.'
-import FlightDetailsCard from './components/FlightDetailsCard'
-import PlanJourney from './components/PlanJourney'
 
-import TravelAppLight from './components/Travelapplight'
 import Page1 from './pages/Page1'
 import Page2 from './pages/Page2'
 import Page3 from './pages/Page3'
